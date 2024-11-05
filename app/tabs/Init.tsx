@@ -4,11 +4,8 @@ import React, { useState } from 'react';
 import { Link } from "expo-router";
 
 export default function Ident() {
-  const [nome, setNome] = useState(''); // Mover para dentro do componente Ident
   const [email, setEmail] = useState(''); // Mover para dentro do componente Ident
-  const [CPF, setCPF] = useState(''); // Mover para dentro do componente Ident
   const [senha, setSenha] = useState(''); // Mover para dentro do componente Ident
-  const [confisenha, setConfiSenha] = useState(''); // Mover para dentro do componente Ident
 
   return (
     <View style={Style.container}>
@@ -23,16 +20,6 @@ export default function Ident() {
       />
 
       <View style={Style.containerlog}>
-
-        <Text style={Style.text1}>Nome completo</Text>
-
-        <TextInput
-          style={Style.nome}
-          value={nome}
-          onChangeText={setNome} // Atualiza o estado com o texto digitado
-          placeholder="Insira seu nome"
-        />
-
         <Text style={Style.text1}>E-mail</Text>
 
         <TextInput
@@ -40,17 +27,6 @@ export default function Ident() {
           value={email}
           onChangeText={setEmail} // Atualiza o estado com o texto digitado
           placeholder="seuemail@exemplo.com"
-        />
-
-
-        <Text style={Style.text1}>CPF</Text>
-
-        <TextInput
-          style={Style.CPF}
-          value={CPF}
-          onChangeText={setCPF} // Atualiza o estado com o texto digitado
-          keyboardType="numeric" // Isso configura o teclado para números
-          placeholder="___.___.___-__"
         />
 
         <Text style={Style.text1}>Senha</Text>
@@ -62,21 +38,20 @@ export default function Ident() {
           placeholder="Insira a sua senha"
           secureTextEntry={true} //adiciona omissão no que foi digitado
         />
-        <Text style={Style.text1}>Confirmar Senha</Text>
-
-        <TextInput
-          style={Style.confisenha}
-          value={confisenha}
-          onChangeText={setConfiSenha} // Atualiza o estado com o texto digitado
-          placeholder="Confirme a sua senha"
-          secureTextEntry={true} //adiciona omissão no que foi digitado
-        />
-        <Pressable style={Style.botaoVOLUNsignup}>
-          <Link href="/tabs/Init">
-            <Text style={Style.text2}>Criar Conta</Text>
+        <Pressable style={Style.botaoVOLUNlogin}>
+        <Link href="">
+          <Text style={Style.text}>
+            Entrar
+          </Text>
           </Link>
+
         </Pressable>
 
+        <Pressable style={Style.botaoVOLUNCad}>
+        <Link href="">
+          <Text style={Style.text2}>Criar Conta</Text>
+          </Link>
+        </Pressable>
       </View>
     </View>
   );

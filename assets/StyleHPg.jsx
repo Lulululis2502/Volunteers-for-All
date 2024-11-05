@@ -60,31 +60,101 @@ export default StyleSheet.create({
     alignItems: 'flex-start',
     padding: 20,
     justifyContent:"center",
-    textAlign: `left`,
     width: '100%',
+    top: 100,
 },
     text1: {
         color: "black", 
        fontSize: 20,
         fontWeight:"normal",
-        textAlign: 'left',
+        textAlign: `left`,
     },
       email: {
-        height: 40,
+        height: 50,
         borderColor: 'gray',
         borderWidth: 1,
         width: '100%', // Ajuste a largura conforme necessário
         paddingHorizontal: 10,
-        borderRadius: 5,
+        borderRadius: 10,
+        fontSize: 20,
+      
       },
       senha: {
-      height: 40,
+      height: 50,
       borderColor: 'gray',
       borderWidth: 1,
       width: '100%', // Ajuste a largura conforme necessário
       paddingHorizontal: 10,
-      borderRadius: 5,
-  }
-  
+      borderRadius: 10,
+      fontSize: 20,
 
+  },
+  botaoVOLUNlogin: {
+      paddingHorizontal: 10,
+      borderRadius: 40,
+      backgroundColor: "#8D6E4A",
+      alignItems: "center",
+        height: 50,
+        width: '100%',
+        justifyContent:"center",
+        elevation: 3,
+        top: 50,
+  },
+
+  botaoVOLUNCad: {
+    paddingHorizontal: 10,
+    borderRadius: 40,
+    alignItems: "center",
+      height: 50,
+      width: '100%',
+      justifyContent:"center",
+      top: 60,
+      right: 0.5,
+  },
+
+  text2: {
+    color: "black", 
+    fontSize: 20,
+     fontWeight:"bold",
+     textAlign: `center`,  
+  }, 
+  nome: {
+    height: 50,
+    borderColor: 'gray',
+    borderWidth: 1,
+    width: '100%', // Ajuste a largura conforme necessário
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    fontSize: 20,
+  
+  },
+  confisenha: {
+  height: 50,
+  borderColor: 'gray',
+  borderWidth: 1,
+  width: '100%', // Ajuste a largura conforme necessário
+  paddingHorizontal: 10,
+  borderRadius: 10,
+  fontSize: 20,
+  },
+  CPF: {
+    height: 50,
+    borderColor: 'gray',
+    borderWidth: 1,
+    width: '100%', // Ajuste a largura conforme necessário
+    paddingHorizontal: 10,
+    borderRadius: 10,
+    fontSize: 20,
+    },
+    botaoVOLUNsignup: {
+      paddingHorizontal: 10,
+      borderRadius: 40,
+      backgroundColor: "#8D6E4A",
+      alignItems: "center",
+        height: 50,
+        width: '100%',
+        justifyContent:"center",
+        elevation: 3,
+        top: 35,
+  },
 });

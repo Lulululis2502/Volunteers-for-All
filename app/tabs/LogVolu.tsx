@@ -1,6 +1,7 @@
 import { TextInput, Image, Text, View, SafeAreaView, Pressable, ImageBackground } from "react-native";
 import Style from "../../assets/StyleHPg";
 import React, { useState } from 'react';
+import { Link } from "expo-router";
 
 export default function Ident() {
   const [email, setEmail] = useState(''); // Mover para dentro do componente Ident
@@ -37,7 +38,20 @@ export default function Ident() {
           placeholder="Insira a sua senha"
           secureTextEntry={true} //adiciona omissão no que foi digitado
         />
+        <Pressable style={Style.botaoVOLUNlogin}>
+        <Link href="/tabs/Init">
+          <Text style={Style.text}>
+            Entrar
+          </Text>
+          </Link>
 
+        </Pressable>
+
+        <Pressable style={Style.botaoVOLUNCad}>
+        <Link href="/tabs/CadVolu">
+          <Text style={Style.text2}>Criar Conta</Text>
+          </Link>
+        </Pressable>
       </View>
     </View>
   );
