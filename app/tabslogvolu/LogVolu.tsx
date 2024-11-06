@@ -10,7 +10,7 @@ export default function Ident() {
   return (
     <View style={Style.container}>
       <ImageBackground
-        style={Style.circulos}
+        style={Style.circulo}
         source={require('../../assets/images/circulos.jpeg')}
       />
 

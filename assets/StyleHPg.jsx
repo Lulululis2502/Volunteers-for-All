@@ -21,7 +21,7 @@ export default StyleSheet.create({
         /* resizeMode: 'contain' deixa a imagem responsiva com o tamanho do container */
     },
 
-    circulos: {
+    circulo: {
         /* width 100%: util para adaptar o elemento ao tamanho da tela */
         width: '100%', 
         /* mantem a proporção da largura para altura e evita que ela perca isso se a tela for redimensionada */
