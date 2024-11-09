@@ -17,14 +17,12 @@ export default function Ident() {
         source={require('../../assets/images/circulos.jpeg')}
       />
 
-      <Image
-        style={Style.logo}
-        source={require('../../assets/images/logo-fake.jpeg')}
-      />
 
-      <View style={Style.containerlog}>
+      <View style={Style.containerlog2}>
 
-        <Text style={Style.text1}>Nome completo</Text>
+        <Text style={Style.text1}>Nome completo
+        <Text style={Style.text3}>*</Text>
+        </Text>
 
         <TextInput
           style={Style.nome}
@@ -33,7 +31,9 @@ export default function Ident() {
           placeholder="Insira seu nome"
         />
 
-        <Text style={Style.text1}>E-mail</Text>
+        <Text style={Style.text1}>E-mail
+        <Text style={Style.text3}>*</Text>
+        </Text>
 
         <TextInput
           style={Style.email}
@@ -43,7 +43,9 @@ export default function Ident() {
         />
 
 
-        <Text style={Style.text1}>CPF</Text>
+        <Text style={Style.text1}>CPF
+        <Text style={Style.text3}>*</Text>
+        </Text>
 
         <TextInput
           style={Style.CPF}
@@ -53,7 +55,9 @@ export default function Ident() {
           placeholder="___.___.___-__"
         />
 
-        <Text style={Style.text1}>Senha</Text>
+        <Text style={Style.text1}>Senha
+        <Text style={Style.text3}>*</Text>
+        </Text>
 
         <TextInput
           style={Style.senha}
@@ -62,7 +66,9 @@ export default function Ident() {
           placeholder="Insira a sua senha"
           secureTextEntry={true} //adiciona omissão no que foi digitado
         />
-        <Text style={Style.text1}>Confirmar Senha</Text>
+        <Text style={Style.text1}>Confirmar Senha
+        <Text style={Style.text3}>*</Text>
+        </Text>
 
         <TextInput
           style={Style.confisenha}
@@ -71,13 +77,22 @@ export default function Ident() {
           placeholder="Confirme a sua senha"
           secureTextEntry={true} //adiciona omissão no que foi digitado
         />
+        </View>
+        
+        <View style={Style.Viewbotaoong}>
         <Pressable style={Style.botaoVOLUNsignup}>
           <Link href="/tabs/Init">
             <Text style={Style.text2}>Criar Conta</Text>
           </Link>
         </Pressable>
 
-      </View>
+        <Pressable style={Style.botaoVOLUNCad}>
+        <Link href="/tabslogvolu/LogVolu">
+          <Text style={Style.text2}>Já possuo uma conta</Text>
+          </Link>
+        </Pressable>
+        </View>
+      
     </View>
   );
 }

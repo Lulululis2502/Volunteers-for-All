@@ -20,7 +20,9 @@ export default function Ident() {
       />
 
       <View style={Style.containerlog}>
-        <Text style={Style.text1}>E-mail</Text>
+        <Text style={Style.text1}>E-mail
+        <Text style={Style.text3}>*</Text>
+        </Text>
 
         <TextInput
           style={Style.email}
@@ -29,7 +31,9 @@ export default function Ident() {
           placeholder="seuemail@exemplo.com"
         />
 
-        <Text style={Style.text1}>Senha</Text>
+        <Text style={Style.text1}>Senha
+        <Text style={Style.text3}>*</Text>
+        </Text>
 
         <TextInput
           style={Style.senha}

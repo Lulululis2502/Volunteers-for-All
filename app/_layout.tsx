@@ -8,7 +8,7 @@ export default function RootLayout() {
 
       <Stack.Screen 
       name="tabslogvolu/CadVolu" 
-      options={{ title: "Voltar"}} 
+      options={{headerShown: false }} 
     />
      <Stack.Screen 
       name="tabslogvolu/LogVolu" 
@@ -21,6 +21,11 @@ export default function RootLayout() {
 
      <Stack.Screen name="tabs" options={{ headerShown: false }} />
 
+     <Stack.Screen name="tabslogong/LogOng" options={{title:"voltar"}}/>
+
+     <Stack.Screen name="tabslogong/CadOng" options={{ headerShown: false}}/>
 </Stack>
+
+
   );
 }

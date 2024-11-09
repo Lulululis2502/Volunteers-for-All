@@ -1,4 +1,6 @@
+import Checkbox from "expo-checkbox";
 import { StyleSheet } from "react-native";
+import { TextInput } from "react-native-gesture-handler";
 
 export default StyleSheet.create({
         container: {
@@ -58,10 +60,29 @@ export default StyleSheet.create({
 
     containerlog: {
     alignItems: 'flex-start',
-    padding: 20,
+    padding: 40,
     justifyContent:"center",
     width: '100%',
     top: 100,
+    gap: 15
+},
+
+containerlog2: {
+  alignItems: 'flex-start',
+  padding: 40,
+  justifyContent:"center",
+  width: '100%',
+  top: 20,
+  gap: 10
+},
+
+Viewbotaoong:{
+  alignItems: 'flex-start',
+  padding: 20,
+  justifyContent:"center",
+  width: "90%",
+  top: -27,
+
 },
     text1: {
         color: "black", 
@@ -108,7 +129,7 @@ export default StyleSheet.create({
       height: 50,
       width: '100%',
       justifyContent:"center",
-      top: 60,
+      top: 37,
       right: 0.5,
   },
 
@@ -146,6 +167,7 @@ export default StyleSheet.create({
     borderRadius: 10,
     fontSize: 20,
     },
+
     botaoVOLUNsignup: {
       paddingHorizontal: 10,
       borderRadius: 40,
@@ -157,4 +179,64 @@ export default StyleSheet.create({
         elevation: 3,
         top: 35,
   },
+
+  botaoONGsignup: {
+    paddingHorizontal: 10,
+    borderRadius: 40,
+    backgroundColor: "#8D6E4A",
+    alignItems: "center",
+      height: 50,
+      width: '100%',
+      justifyContent:"center",
+      elevation: 3,
+      top: 35,
+},
+
+    text3: {
+      color:"red",
+      fontSize: 20,
+        fontWeight:"normal",
+        textAlign: `left`,
+        
+   },
+
+   botaoONGlogin: {
+    paddingHorizontal: 10,
+    borderRadius: 40,
+    backgroundColor: "#8D6E4A",
+    alignItems: "center",
+      height: 50,
+      width: '100%',
+      justifyContent:"center",
+      elevation: 3,
+      top: 30,
+},
+
+botaoONGCad: {
+  paddingHorizontal: 10,
+  borderRadius: 40,
+  alignItems: "center",
+    height: 50,
+    width: '100%',
+    justifyContent:"center",
+    top: 37,
+    right: 0.5,
+},
+
+backButton: {
+  position: 'absolute',
+  top: 20,
+  left: 20,
+},
+
+CNPJ: {
+  height: 50,
+  borderColor: 'gray',
+  borderWidth: 1,
+  width: '100%', // Ajuste a largura conforme necessário
+  paddingHorizontal: 10,
+  borderRadius: 10,
+  fontSize: 20,
+  },
+ 
 });

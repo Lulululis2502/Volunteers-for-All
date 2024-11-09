@@ -7,11 +7,11 @@ export default function Ident() {
       style={Style.container}
     >
       <ImageBackground
-          style={Style.circulos}
+          style={Style.circulo}
           source={require('../assets/images/circulos.jpeg')}/>
 
       <Pressable style={Style.botaoINSTI}>
-       <Link href="./">
+       <Link href="/tabslogong/LogOng">
         <Text style={ Style.text}>
             Sou uma Instituição
         </Text>
@@ -19,7 +19,7 @@ export default function Ident() {
       </Pressable>
 
       <Pressable style={Style.botaoVOLUN}>
-       <Link href="/tabs/LogVolu">
+       <Link href="/tabslogvolu/LogVolu">
         <Text style={ Style.text}>
             Sou um Voluntário
         </Text>
