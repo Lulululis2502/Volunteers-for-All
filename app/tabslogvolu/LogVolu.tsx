@@ -48,7 +48,7 @@ export default function Ident() {
         </Pressable>
 
         <Pressable style={Style.botaoVOLUNCad}>
-        <Link href="/tabs/CadVolu">
+        <Link href="/tabslogvolu/CadVolu">
           <Text style={Style.text2}>Criar Conta</Text>
           </Link>
         </Pressable>
