@@ -8,7 +8,7 @@ export default function Ident() {
  
     return (
       <View style={Style.container}>
-        <Text>Tab [Home|Settings]</Text>
+        <Text>Tab [Home|Search]</Text>
       </View>
     );
   }
