@@ -2,10 +2,18 @@ import { TextInput, Image, Text, View, SafeAreaView, Pressable, ImageBackground 
 import Style from "../../assets/StyleHPg";
 import React, { useState } from 'react';
 import { Link } from "expo-router";
+import {maskBr, validate} from "js-brasil";
+import { useState } from "react";
 
 export default function Ident() {
   const [email, setEmail] = useState(''); // Mover para dentro do componente Ident
   const [senha, setSenha] = useState(''); // Mover para dentro do componente Ident
+  const[CPF, setCPF] = useState("");
+
+const handleInputChange = (text) => {
+  const formatted = text.length <= 11 ? maskBr.CPF(text) : maskBr.CPF(text);
+  setCPF(formatted);
+};
 
   return (
     <View style={Style.container}>
