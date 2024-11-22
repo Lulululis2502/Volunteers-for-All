@@ -1,7 +1,12 @@
 import { Image, Text, View, Pressable, ImageBackground } from "react-native";
 import { Link } from "expo-router";
 import Style from "../assets/StyleHPg";
+
+
+
 export default function Ident() {
+
+
   return (
     <View
       style={Style.container}

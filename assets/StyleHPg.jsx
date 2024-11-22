@@ -238,5 +238,49 @@ CNPJ: {
   borderRadius: 10,
   fontSize: 20,
   },
+
+  topo:{
+    backgroundColor: '#B8860B',
+    height: 100,
+    width: '100%',
+    flexDirection: "row",
+    //position: 'absolute',
+  },
+  roundButton: {
+    position: 'absolute',       // Posiciona o botão no canto superior esquerdo
+    top: 40,
+    left: 10,
+  },
+  pesquisabtn:{
+    //paddingVertical: 0,
+    paddingHorizontal: 34,
+    marginLeft:-15,
+    marginTop:40,
+    marginBottom:25,
+    width: '60%',
+    borderWidth: 1,          // Define a largura da borda
+    borderColor: '#007BFF',  // Cor da borda
+    borderRadius: 8,         // Borda arredondada
+    backgroundColor: '#fff', // Cor de fundo do botão
+    },
+  btnpesqui:{
+    marginLeft:65,
+    width:10,
+    marginTop:45,
+  },
+  user:{
+    marginLeft:15,
+    marginTop:25,
+   width:60,
+   height:60,
+   alignItems: "center",
+    borderWidth:1,  
+    borderRadius:1000,
+    justifyContent: "center",
+    backgroundColor: '#A9A9A9',
+  },
+  user2:{
+  
+  },  
  
 });
