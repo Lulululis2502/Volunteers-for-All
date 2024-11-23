@@ -279,8 +279,9 @@ CNPJ: {
     justifyContent: "center",
     backgroundColor: '#A9A9A9',
   },
-  user2:{
-  
+  containerini:{
+    flex: 1,
+    backgroundColor: "#f0f4f8",
   },  
- 
+
 });

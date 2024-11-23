@@ -23,6 +23,9 @@ export default function RootLayout() {
 
      <Stack.Screen name="tabslogong/LogOng" options={{title:"voltar"}}/>
 
+     <Stack.Screen name="Feed" 
+      options={{headerShown: false}}/>
+
      <Stack.Screen name="tabslogong/CadOng" options={{ headerShown: false}}/>
 </Stack>
 

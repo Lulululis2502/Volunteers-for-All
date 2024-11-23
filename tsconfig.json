@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "app/tabslogvolu/CadVolu.js", "app/tabslogvolu/LogVolu.js", "app/tabslogong/CadOng.js", "app/tabslogong/LogOng.js", "app/tabs/Init.js", "app/tabs/search.js", "app/tabs/_layout.js", "app/_layout.js", "app/index.js", "app/tabs laterais/subMenu1.js", "app/tabs laterais/subMenu2.js"  ]
+, "app/tabslogvolu/CadVolu.js", "app/tabslogvolu/LogVolu.js", "app/tabslogong/CadOng.js", "app/tabslogong/LogOng.js", "app/Feed/feed.js", "app/tabs/search.js", "app/tabs/_layout.js", "app/_layout.js", "app/index.js", "app/tabs laterais/subMenu1.js", "app/tabs laterais/subMenu2.js"  ]
 }

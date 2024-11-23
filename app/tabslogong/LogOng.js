@@ -48,7 +48,7 @@ export default function Ident() {
           secureTextEntry={true} //adiciona omissão no que foi digitado
         />
         <Pressable style={Style.botaoONGlogin}>
-        <Link href="/tabs/Init">
+        <Link href="/Feed/feed">
           <Text style={Style.text}>
             Entrar
           </Text>
