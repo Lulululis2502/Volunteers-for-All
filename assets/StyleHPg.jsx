@@ -240,7 +240,7 @@ CNPJ: {
   },
 
   topo:{
-    backgroundColor: '#B8860B',
+    backgroundColor: '#BDA47E',
     height: 100,
     width: '100%',
     flexDirection: "row",
@@ -283,5 +283,5 @@ CNPJ: {
     flex: 1,
     backgroundColor: "#f0f4f8",
   },  
-
+ 
 });

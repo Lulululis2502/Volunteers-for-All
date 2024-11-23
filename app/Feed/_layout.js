@@ -1,14 +1,16 @@
 import { Drawer } from "expo-router/drawer";
-import { Stack } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
+
 
 export default function Root() {
   return (
     <Drawer
       screenOptions={{
-        headerShown: false,  // Isso deve remover o cabeçalho para todas as telas dentro do Drawer
+        headerShown: false,
         drawerStyle: {
           backgroundColor: '#f4f4f4',
           width: 250,
+          height: '100%',
         },
         drawerContentStyle: {
           paddingVertical: 10,
@@ -24,10 +26,21 @@ export default function Root() {
     >
       <Drawer.Screen
         name="feed"
-        options={{ title: 'dsa' }} />
+        options={{
+          title: 'Home', 
+          drawerIcon: () => <Ionicons name="home" size={24} color="#4caf50" />,
+        }}
+      />
       <Drawer.Screen
         name="Configurações"
-        options={{ title: 'Configurações' }} />
+        options={{
+          title: 'Configurações', 
+          drawerIcon: () => <Ionicons name="settings" size={24} color="#4caf50" />, // Ícone de configurações
+          drawerItemStyle: {
+          
+          },
+        }}
+      />
     </Drawer>
   );
 }
