@@ -67,7 +67,7 @@ export default function Root() {
       />
      
       <Drawer.Screen
-        name="Configurações"
+        name="Configuracoes"
         options={{
           title: 'Configurações', 
           drawerIcon: () => <Ionicons name="settings" size={24} color="" />, // Ícone de configurações

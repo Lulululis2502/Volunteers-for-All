@@ -3,13 +3,14 @@ import Style from "../../assets/StyleHPg";
 import { Link } from "expo-router";
 import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
-import Entypo from 'react-native-vector-icons/Entypo';
+import Routes from '../tabs/routes';
 
 export default function Ident() {
 
   const navigation = useNavigation();
 
     return (
+      
       <SafeAreaView style={Style.containerini}>
 
         <View style={Style.topo} >
@@ -38,7 +39,11 @@ export default function Ident() {
           </Link>
         </Pressable>
         </View>
+          
+        <Routes/>
         
+      
+
       </SafeAreaView>
               
 
