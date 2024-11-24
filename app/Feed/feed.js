@@ -1,4 +1,4 @@
-import { TextInput, TouchableOpacity, Text, View, SafeAreaView, Pressable, ImageBackground } from "react-native";
+import { TextInput, TouchableOpacity, Text, View, SafeAreaView, Pressable, Image} from "react-native";
 import Style from "../../assets/StyleHPg";
 import { Link } from "expo-router";
 import { useNavigation } from '@react-navigation/native';
@@ -32,9 +32,9 @@ export default function Ident() {
           
         />
         
-        <Pressable style={Style.user} >
-          <Link href="/tabs/Init"> 
-            <Entypo name="user" size={40} color="#ffffff"/>
+        <Pressable >
+          <Link href=""> 
+          <Image style={Style.user} source={require("../../assets/images/user.jpeg")}/>
           </Link>
         </Pressable>
         </View>
