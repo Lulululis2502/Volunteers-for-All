@@ -72,7 +72,7 @@ export default function Root() {
           title: 'Configurações', 
           drawerIcon: () => <Ionicons name="settings" size={24} color="" />, // Ícone de configurações
           drawerItemStyle: {
-            marginTop: '195%',
+            marginTop: '265%',
             height:36,
           },
         }}
